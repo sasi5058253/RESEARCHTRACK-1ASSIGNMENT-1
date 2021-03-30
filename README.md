@@ -22,6 +22,17 @@ According to instructions given in the assignment
 
 The server package my_srv contains the C++ file position_server.cpp which contains the source code for generating random integer within a specified range and advertising it over the node /position. It uses a custom message which provides responses with two integers namely min and max,whereas the request is empty.
 
+# Instructions for Running the Project
+
+The following steps is used to prepare the necessary environment and dependencies to run the assignment:
+
+1.Open command line terminal and navigate to the the local workspace using  *cd /<name_of_workspace>(my_ros_ws)/src* command.
+
+2.Clone the remote repository of assignment in your local workspace using the command: git clone    https://github.com/Aathee1103/Researchtrack_assignment1.git 
+
+3.Build the file using *catkin_make* in the root folder of the workspace.
+
+4.Run the command *rospack profile* to read and parse the .xml for each package and provide a complete dependency tree for all packages.
 
 # Accessing the Assignment
 
@@ -37,19 +48,6 @@ The server package my_srv contains the C++ file position_server.cpp which contai
 4.In the new command terminal,run the commoand to view the computational graph:
 
      rosrun rqt_graph rqt_graph
-     
-     
-     # Instructions for Running the Project
-
-#The following steps is used to prepare the necessary environment and dependencies to run the assignment:
-
-1.Open command line terminal and navigate to the the local workspace using  *cd /<name_of_workspace>(my_ros_ws)/src* command.
-
-2.Clone the remote repository of assignment in your local workspace using the command: git clone https://github.com/sasi5058253/RESEARCHTRACK-1ASSIGNMENT-1.git     
-
-3.Build the file using *catkin_make* in the root folder of the workspace.
-
-4.Run the command *rospack profile* to read and parse the .xml for each package and provide a complete dependency tree for all packages.
 
 
 
