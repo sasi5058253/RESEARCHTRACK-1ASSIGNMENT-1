@@ -28,7 +28,7 @@ The following steps is used to prepare the necessary environment and dependencie
 
 1.Open command line terminal and navigate to the the local workspace using  *cd /<name_of_workspace>(my_ros_ws)/src* command.
 
-2.Clone the remote repository of assignment in your local workspace using the command: git clone    https://github.com/Aathee1103/Researchtrack_assignment1.git 
+2.Clone the remote repository of assignment in your local workspace using the command: git clone https://github.com/sasi5058253/RESEARCHTRACK-1ASSIGNMENT-1.git     
 
 3.Build the file using *catkin_make* in the root folder of the workspace.
 
